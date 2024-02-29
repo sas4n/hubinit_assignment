@@ -47,7 +47,7 @@ Pro tip: When you think you are ready with the assignment, take at least a few h
 
 ### Submitting the assignment
 
-Make sure to replace the __readme.md__ with __yours__ to mention steps we need to follow to examine your finalized assignment.
+Make sure to edit the __readme.md__ to mention steps(without explanation) we need to follow to examine your finalized assignment.
 
 Push your code to your personal GitHub account and contribute to **our repository**.
 
