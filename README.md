@@ -28,11 +28,9 @@ Your task is to write a SIMPLE CRUD to manipulate the object called **"blog"** i
 
 ##### Pages details
 
-- the admin uri for **"blog"** " list : /admin/blogs/blog/
-- the admin uri for **"blog"** " add :/admin/blogs/blog/add
 - the front page uri for **"blog"** list : /blogs/list
 - the front page uri for **"blog"** add :/blogs/add
-- the / uri should just contain the index.html content located in the **carousel folder** within this repo and nothing else 
+- the / uri should just contain the index.html content located in the **carousel folder** within this repo and nothing else .
 
 
 ##### Field details
