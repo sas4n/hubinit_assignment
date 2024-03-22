@@ -22,15 +22,9 @@ The goal of the assignment is to showcase your coding skills and ability to deve
 
 #### Requirements
 
-Your task is to write a SIMPLE CRUD to manipulate the object called **"blog"** in the Django admin in addition you need to create two front pages one for adding a blog and one to display blogs containing buttons to delete/edit a blog , and customize the __localhost:your_port/__ page using the given **index.html** located in the **carousel folder** (Consider it as you are integrating a template).
+Your task is to write a SIMPLE CRUD to manipulate the object called **"blog"** in the Django admin in addition for the front-end the user should be able to list all the blogs , search,  create ,update, and delete a blog, and customize the __localhost:your_port/__ page using the given **index.html** located in the **carousel folder** (Consider it as you are integrating a template).
 
 ### Specification
-
-##### Pages details
-
-- the front page uri for **"blog"** list : /blogs/list
-- the front page uri for **"blog"** add :/blogs/add
-- the / uri should just contain the index.html content located in the **carousel folder** within this repo and nothing else .
 
 
 ##### Field details
