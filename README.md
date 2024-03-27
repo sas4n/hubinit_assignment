@@ -92,7 +92,12 @@ A good check before pushing your task is making sure the project works well, usi
 
 <h2>Usage</h2>
 <ol>
-  <li>Register a new user account or log in with existing credentials.</li>
+  <li>Register a new user account or log in with existing credentials. For logging in, you can use the following credentials:
+    <ul>
+      <li>Username: iheb, Password: azerty10</li>
+      <li>Username: django, Password: django10</li>
+    </ul>
+    After logging in, you will be redirected to the user management page. You can add, delete, and update blogs at <a href="http://127.0.0.1:8000/blog/">http://127.0.0.1:8000/blog/</a>. Note that you need to be logged in to perform these actions. Access to the blog management page is restricted for unauthorized users.</li>
   <li>Navigate to the "Blog" section to create, view, update, or delete blog entries.</li>
   <li>Use the search functionality to find specific blog entries based on title, author name, or blog content.</li>
 </ol>
