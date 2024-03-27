@@ -12,8 +12,7 @@ def blog_list(request):
         # Filter blog entries by title containing the search query
         blogs = blogs.filter(blog_title__icontains=query)
     return render(request, 'blog_register/blog_list.html', {'blog_list': blogs, 'query': query})
-    # blogs = Blog.objects.all()
-    # return render(request, 'blog_register/blog_list.html', {'blog_list': blogs})
+    
 
     
 
