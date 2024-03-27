@@ -92,7 +92,7 @@ A good check before pushing your task is making sure the project works well, usi
 
 <h2>Usage</h2>
 <ol>
-  <li>Register a new user account or log in with existing credentials. For logging in, you can use the following credentials:
+  <li>Register a new user account or log in with existing credentials. For logging in, you can use the following credentials: at <a href="http://127.0.0.1:8000/admin/">http://127.0.0.1:8000/admin/</a>
     <ul>
       <li>Username: iheb, Password: azerty10</li>
       <li>Username: django, Password: django10</li>
