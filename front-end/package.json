@@ -1,0 +1,21 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "source": "carousel/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bootstrap-icons": "^1.11.3"
+  }
+}
