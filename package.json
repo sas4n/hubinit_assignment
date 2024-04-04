@@ -1,0 +1,12 @@
+{
+  "name": "hubinit_assignment",
+  "version": "1.0.0",
+  "description": "Preliminary Assignment for full stack developers. Welcome! We are delighted to see you applying. Now it's your time to shine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
