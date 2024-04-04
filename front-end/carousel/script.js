@@ -19,9 +19,13 @@ document.addEventListener("DOMContentLoaded", async (e) => {
     itemClone.querySelector(".item").style.backgroundImage = `url(${
       imageLinks[index % imageLinks.length]
     })`;
+
     itemClone.querySelector(".title").textContent = item.blog_title;
     itemClone.querySelector(".description").textContent = item.blog_text;
-    itemClone.querySelector(".status").textContent = item.status;
+    itemClone.querySelector(".status").textContent = item.blog_status;
+    const deleteBtn = itemClone.querySelector(".delete");
+    deleteBtn.setAttribute("id", item.id);
+    deleteBtn.addEventListener("click", deleteBlog);
     slider.appendChild(itemClone);
   });
   console.log(data);
@@ -35,3 +39,9 @@ function activate(e) {
 }
 
 document.addEventListener("click", activate, false);
+
+const deleteBlog = async ({ currentTarget }) => {
+  const url = `http://localhost:8000/api/blogs/${currentTarget.id}`;
+  const res = await axios.delete(url);
+  console.log(res);
+};
